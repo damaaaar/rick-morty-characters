@@ -26,3 +26,9 @@ body {
   align-items: center;
   gap: 2rem;
 }
+
+@media (width < 650px) {
+  .header-title {
+    font-size: 1.3rem;
+  }
+}
