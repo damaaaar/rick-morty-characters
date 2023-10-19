@@ -4,7 +4,7 @@ import './Card.css'
 function Card () {
   const { info, handleClick } = useCharacter()
   return (
-    <>
+    <div className='container'>
       {
         info &&
           <article className='character'>
@@ -21,7 +21,7 @@ function Card () {
           </article>
       }
       <button onClick={handleClick} className='refresh-button'>Refresh</button>
-    </>
+    </div>
   )
 }
 
