@@ -71,3 +71,9 @@
     background: initial;
   }
 }
+
+@media (height < 500px) {
+  .container {
+    margin-top: 3rem;
+  }
+}
